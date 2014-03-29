@@ -1,0 +1,19 @@
+
+
+
+Instuctions for building rt kernel "Building for BeagleBone Black on Linux   Developer.htm"
+
+I have compiled and added to this repository the kernel "Linux arm 3.8.13-rt9-00899-g30cfdb8 #1 SMP PREEMPT"
+
+Modules goes to /lib/modules/
+and the zImage file goes to /boot/uboot/
+
+
+Instuctions for Compling DTC for debian distro. Required for device tree compilation 
+wget -c https://raw.github.com/RobertCNelson/tools/master/pkgs/dtc.sh
+chmod +x dtc.sh
+./dtc.sh
+
+For the pre-compliled version we have DTC_build/local which goes to /usr/local
+
+

@@ -1,0 +1,17 @@
+# of module          name                 type                 compatible
+pwm_test             *                    *                    pwm_test
+mdio-mux-mmioreg     *                    *                    mdio-mux-mmioreg
+c_can_platform       *                    *                    bosch,c_can
+c_can_platform       *                    *                    bosch,d_can
+uio_pruss            *                    *                    ti,pruss-v1
+uio_pruss            *                    *                    ti,pruss-v2
+rotary_encoder       *                    *                    rotary-encoder
+rtc-snvs             *                    *                    fsl,sec-v4.0-mon-rtc-lp
+i2c-mux-pinctrl      *                    *                    i2c-mux-pinctrl
+isl29018             *                    *                    isil,isl29018
+isl29028             *                    *                    isil,isl29028
+ak8975               *                    *                    asahi-kasei,ak8975
+ak8975               *                    *                    ak8975
+omap-thermal         *                    *                    ti,omap4430-bandgap
+omap-thermal         *                    *                    ti,omap4460-bandgap
+omap-thermal         *                    *                    ti,omap4470-bandgap
